@@ -15,7 +15,7 @@ $(document).ready(function(e) {
 		
 		//Actualiza la aceleracion cada 2 segundos
 		
-		var opciones={frenquency:200};
+		var opciones={frenquency:2000};
 		
 		watchID=navigator.accelerometer.watchAcceleration(Correcto, Error, opciones);
 		navigator.geolocation.getCurrentPosition(Localiza, ErrorLocalizacion);
